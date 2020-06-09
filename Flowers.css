@@ -1,0 +1,71 @@
+/* -------- Page Setup ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Courier New;
+    color: #0f0f0f;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial'; 'sans-serif';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '-';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    
+}
+
+/* -------- Page Setup ---------- */
+
+.logo {
+    height: 60px;
+    width: auto;
+    float: left;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.06),rgba(0, 0, 0, 0.7)), url(/sunflower.jpg);
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header h1 { 
+    margin: 0;
+    color: #0f0f0f;
+    font-size: 220%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    text-align: center;
+    font-family: Courier New;
+}
+
+header h2 {
+    font-size: 100%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: #0f0f0f;
+    font-weight: 3200;
+}
+
+
